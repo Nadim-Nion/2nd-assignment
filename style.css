@@ -4,6 +4,12 @@ body {
 }
 
 /* Header styles */
+header>h3 {
+    font-size: 24px;
+    font-weight: 700;
+    /* margin-bottom: 145.8px; */
+}
+
 header h3 {
     padding-left: 8%;
 }
@@ -32,10 +38,4 @@ a {
 .influencer h1 {
     font-weight: 700;
     font-size: 52px;
-}
-
-header>h3 {
-    font-size: 24px;
-    font-weight: 700;
-    /* margin-bottom: 145.8px; */
 }
