@@ -4,6 +4,11 @@ body {
 }
 
 /* Header styles */
+.header-class {
+    display: flex;
+    justify-content: space-between;
+}
+
 header>h3 {
     font-size: 24px;
     font-weight: 700;
@@ -12,6 +17,15 @@ header>h3 {
 
 header h3 {
     padding-left: 8%;
+}
+
+
+.navbar li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-right: 40px;
+    font-weight: 700;
 }
 
 
