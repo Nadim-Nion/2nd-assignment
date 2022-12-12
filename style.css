@@ -27,15 +27,20 @@ a {
     text-decoration: none;
     background-color: #E02C6D;
     border: 1px solid #E02C6D;
-    border-radius: 15px;
+    border-radius: 41px;
     color: white;
-    padding: 13px;
+    /* padding: 13px; */
+    Padding: 10px 24px;
+    font-weight: 700;
     /* margin-top: 16.1px; */
-
 }
 
 
 .influencer h1 {
     font-weight: 700;
     font-size: 52px;
+}
+
+.influencer p {
+    margin-bottom: 50px;
 }
