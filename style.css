@@ -58,3 +58,17 @@ a {
 .influencer p {
     margin-bottom: 50px;
 }
+
+/* Popular Collection Styles */
+.sec-two {
+    position: absolute;
+    top: 650px;
+    left: 12opx;
+}
+
+h3 {
+    padding-left: 700px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #3A3A3A;
+}
