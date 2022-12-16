@@ -9,6 +9,11 @@ body {
     justify-content: space-between;
 }
 
+.header-class,
+.navbar {
+    align-items: center;
+}
+
 header>h3 {
     font-size: 24px;
     font-weight: 700;
