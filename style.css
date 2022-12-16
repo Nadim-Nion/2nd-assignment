@@ -1,3 +1,4 @@
+/* Common Styles */
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -14,15 +15,15 @@ body {
     align-items: center;
 }
 
-header>h3 {
+header h3 {
     font-size: 24px;
     font-weight: 700;
-    /* margin-bottom: 145.8px; */
-}
-
-header h3 {
     padding-left: 8%;
 }
+
+/* header h3 {
+    padding-left: 8%;
+} */
 
 
 .navbar li {
