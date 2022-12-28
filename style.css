@@ -82,6 +82,7 @@ a {
     /* position: absolute;
     left: 150px;
     top: 200px; */
+    padding-left: 500px;
 
 }
 
@@ -117,6 +118,10 @@ a {
 
 }
 
+.gear-rating span {
+    padding-left: 15px;
+}
+
 .fa-star {
     font-size: 10px;
 }
@@ -125,4 +130,34 @@ a {
     color: goldenrod;
     width: 16px;
     height: 16px;
+}
+
+/* Feature Products Styles */
+.sec-three {
+    position: absolute;
+    left: 165px;
+    top: 2697px;
+    width: 1110px;
+    height: 270px;
+
+}
+
+.feature-products {
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+
+}
+
+.feature-details h3 {
+    width: 610px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+
+}
+
+.feature-details p {
+    margin-bottom: 30px;
 }
