@@ -1,4 +1,6 @@
-/* Common Styles */
+/* ------------------
+    Common Styles
+   ------------------ */
 body {
     font-family: 'Poppins', sans-serif;
     /* position: relative; */
@@ -35,7 +37,9 @@ header h3 {
 }
 
 
-/* Influencer and camera styles */
+/* -------------------------
+Influencer and camera styles
+----------------------------- */
 .sec-one {
     display: flex;
     justify-content: space-between;
@@ -54,7 +58,7 @@ a {
     /* padding: 13px; */
     Padding: 10px 24px;
     font-weight: 700;
-    font-size: small;
+    font-size: 24px;
     /* margin-top: 16.1px; */
 
 }
@@ -78,7 +82,13 @@ a {
     font-weight: 200;
 }
 
-/* Popular Collection Styles */
+/* .camera {
+    margin-bottom: 60px;
+} */
+
+/* --------------------------
+    Popular Collection Styles
+----------------------------- */
 .sec-two {
     margin-top: 20px;
 
@@ -102,10 +112,10 @@ a {
 }
 
 /* .container {
-     position: absolute; 
-width: 1047px;
+    position: absolute; 
+    width: 1047px;
     height: 1662px; 
- left: 120px;
+    left: 120px;
     top: 150px; 
 
 } */
@@ -149,19 +159,32 @@ width: 1047px;
 }
 
 .button {
-    position: absolute;
+    /* position: absolute; */
     width: 99px;
     height: 24px;
-    left: 900px;
-    top: 1700px;
+    /* left: 900px;
+    top: 1700px; */
     color: #E02C6D;
     font-weight: 700;
     font-size: 1em;
+    margin-bottom: 400px;
+    /* margin-left: 0px; */
+    /* align-items: flex-end;
+    justify-content: right; */
+
 }
 
-/* Feature Products Styles */
+/* .button h5 {
+    text-align: right;
+} */
+
+
+/* ------------------------
+    Feature Products Styles
+--------------------------- */
 .sec-three {
     position: absolute;
+
     left: 165px;
     top: 2697px;
     width: 1110px;
@@ -199,18 +222,30 @@ width: 1047px;
     margin-bottom: 30px;
 }
 
-/* Footer Styles */
+/*------------------
+    Footer Styles
+-------------------- */
 footer {
-    position: absolute;
-    width: 262px;
-    height: 139px;
-    left: 589px;
-    top: 3117px;
-    background: rgb(14, 20, 51);
+    /* position: absolute; */
+    width: 1520px;
+    height: 239px;
+    margin-top: 200px;
+    /* left: 589px;
+    top: 3117px; */
+    background: rgb(5, 5, 41);
+    color: white;
     /* color: whitesmoke; */
 }
 
-.influencer {
+.footer-content {
+    text-align: center;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+/* .influencer {
     Width: 243px;
     Height: 36px;
     font-weight: 700;
@@ -220,4 +255,4 @@ footer {
 .lower-footer {
     padding-left: 70px;
     font-weight: 700;
-}
+} */
