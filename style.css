@@ -1,7 +1,7 @@
 /* Common Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Header styles */
@@ -38,9 +38,11 @@ header h3 {
 /* Influencer and camera styles */
 .sec-one {
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    margin: 40px 40px;
+    /* position: absolute;
     left: 120px;
-    top: 100px;
+    top: 100px; */
 }
 
 a {
@@ -52,26 +54,37 @@ a {
     /* padding: 13px; */
     Padding: 10px 24px;
     font-weight: 700;
+    font-size: small;
     /* margin-top: 16.1px; */
+
+}
+
+
+
+.influencer {
+    width: 50%;
+
 }
 
 
 .influencer h1 {
     font-weight: 700;
-    font-size: 52px;
+    /* font-size: 52px; */
 }
 
 .influencer p {
     margin-bottom: 50px;
+    font-weight: 200;
 }
 
 /* Popular Collection Styles */
 .sec-two {
-    position: absolute;
-    top: 650px;
-    left: 150px;
+    margin-top: 20px;
 
 }
+
+
+
 
 
 .sec-two h3 {
@@ -82,24 +95,26 @@ a {
     /* position: absolute;
     left: 150px;
     top: 200px; */
-    padding-left: 500px;
+    padding-left: 600px;
+    margin-top: 120px;
 
 }
 
-.container {
-    position: absolute;
-    width: 1047px;
-    height: 1662px;
-    left: 120px;
-    top: 150px;
+/* .container {
+     position: absolute; 
+width: 1047px;
+    height: 1662px; 
+ left: 120px;
+    top: 150px; 
 
-}
+} */
 
-.gears {
+.gears-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 45px;
     grid-row-gap: 45px;
+    margin: 120px;
 }
 
 .gear .gear-img img {
@@ -132,6 +147,17 @@ a {
     height: 16px;
 }
 
+.button {
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 900px;
+    top: 1700px;
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 1em;
+}
+
 /* Feature Products Styles */
 .sec-three {
     position: absolute;
@@ -144,9 +170,19 @@ a {
 
 .feature-products {
     display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
 
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px; */
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 85%;
 }
 
 .feature-details h3 {
@@ -160,4 +196,27 @@ a {
 
 .feature-details p {
     margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    width: 262px;
+    height: 139px;
+    left: 589px;
+    top: 3117px;
+    background: rgb(14, 20, 51);
+    /* color: whitesmoke; */
+}
+
+.influencer {
+    Width: 243px;
+    Height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.lower-footer {
+    padding-left: 70px;
+    font-weight: 700;
 }
