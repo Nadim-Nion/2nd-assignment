@@ -233,12 +233,19 @@ footer {
     /* left: 589px;
     top: 3117px; */
     background: rgb(5, 5, 41);
-    color: white;
+    color: rgb(184, 174, 174);
     /* color: whitesmoke; */
 }
 
 .footer-content {
     text-align: center;
+    padding: 15px;
+
+}
+
+.footer-influencer {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .icons {
