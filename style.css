@@ -174,9 +174,7 @@ a {
 
 }
 
-/* .button h5 {
-    text-align: right;
-} */
+
 
 
 /* ------------------------
@@ -227,7 +225,7 @@ a {
 -------------------- */
 footer {
     /* position: absolute; */
-    width: 1520px;
+    width: 1500px;
     height: 239px;
     margin-top: 200px;
     /* left: 589px;
