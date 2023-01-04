@@ -91,6 +91,7 @@ a {
 ----------------------------- */
 .sec-two {
     margin-top: 20px;
+    /* margin-bottom: 10px; */
 
 }
 
@@ -181,12 +182,14 @@ a {
     Feature Products Styles
 --------------------------- */
 .sec-three {
-    position: absolute;
+    /* position: absolute;
 
     left: 165px;
-    top: 2697px;
+    top: 2697px; */
     width: 1110px;
     height: 270px;
+    margin-left: 80px;
+    margin-top: 3px;
 
 }
 
@@ -261,3 +264,69 @@ footer {
     padding-left: 70px;
     font-weight: 700;
 } */
+
+
+/*------------------ 
+    Media Queries 
+--------------------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .header-class {
+        flex-direction: column;
+        padding-left: 70px;
+    }
+
+    .sec-one {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .camera img {
+        width: 80%;
+    }
+
+    .sec-two {
+        width: 100%;
+        /* background-color: blue; */
+        /* width: 329px;
+        height: 4504px; */
+
+    }
+
+    .sec-two h3 {
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    .gears-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .sec-three {
+        width: 100%;
+    }
+
+    .feature-products,
+    .feature-details {
+        flex-direction: column;
+    }
+
+    .feature-details h3 {
+        /* font-size: 20px; */
+        width: 100%;
+    }
+
+    .feature-details p {
+        margin-top: 200px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 550px;
+        padding-left: 2%;
+    }
+
+}
